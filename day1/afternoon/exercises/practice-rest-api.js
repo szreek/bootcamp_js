@@ -28,8 +28,6 @@ var users = [
     }
 ];
 
-sad
-
 // clients should be able to create new users, get all users, get a single user,
 // update a user (based on their id), and delete a user
 // feel free to use any built-in functions (including ES6 functions)
