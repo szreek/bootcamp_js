@@ -32,7 +32,11 @@ var users = [
 // update a user (based on their id), and delete a user
 // feel free to use any built-in functions (including ES6 functions)
 // don't use any external libraries (no more require() statements)
+app.get('/', function(req, res) {
+  res.send('asdasdas');
+});
 
+app.get('/users')
 
 
 
@@ -41,6 +45,7 @@ var users = [
 
 var server = app.listen(3000);
 console.log('Listening at http://localhost:%s in %s mode',
-    server.address().port, app.get('env'));
+server.address().port, app.get('env'));
 
 module.exports = app;
+//module.exports = http;
